@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>AJAX</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="form_wraper">
+            <form id="form-container">
+                <div class="form"><span>Street: </span><input type="text" id="street" value=""></div>
+                <div class="form"><span>City: </span><input type="text" id="city" value=""></div>
+                <div class="form"><button id="submit-btn">Submit</button></div>
+            </form>
+        </div>
+        <div class="content_wraper">
+            <div class="content generated_img"></div>
+            <div class="content">
+                <h3 id="wikipedia-header">Relevant Wikipedia Links</h3>
+                <ul id="wikipedia-links">Type in an address above and find relevant Wikipedia articles here!</ul>
+            </div>
+            <div class="content">
+                <h3 id="nytimes-header">New York Times Articles</h3>
+                <ul id="nytimes-articles" class="article-list">What's going on in your new city? Enter an address and hit submit and the NY Times will tell you here!</ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <h2 id="greeting" class="greeting">Where do you want to live?</h2>
+
+
+        <div class="wikipedia-container">
+            <h3 id="wikipedia-header">Relevant Wikipedia Links</h3>
+            <ul id="wikipedia-links">Type in an address above and find relevant Wikipedia articles here!</ul>
+        </div>
+
+
+        <div class="nytimes-container">
+            <h3 id="nytimes-header">New York Times Articles</h3>
+            <ul id="nytimes-articles" class="article-list">What's going on in your new city? Enter an address and hit submit and the NY Times will tell you here!</ul>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+        </script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
