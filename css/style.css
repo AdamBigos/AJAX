@@ -1,75 +1,35 @@
-* {box-sizing:border-box;}
 body {
     background: url(../img/background.jpg) #00cccc center no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
-.form_wraper {
+#greeting {
     text-align: center;
-    margin: 20px;
 }
 
-.content_wraper{
-    max-width: 900px;
-    padding: 10px;
+.margin {
+    margin: 25px;
 }
+
+img {
+    width: 100%
+}
+
+.background {
+    margin: 5px;
+    padding: 5px 25px;
+    background: rgba(255,255,255,0.5);
+}
+
+#form-container {
+    text-align: center;
+}
+
 .form {
     display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.bgimg {
-    position:fixed;
-    top: 0;
-    left: 0;
-    width:100%;
-    z-index:-1;
-    opacity:1;
-}
-
-.greeting {
-    color:black;
-    text-shadow: 1px 1px 3px rgba(255,255,255, .5);
-    text-align: center;
-}
-
-.wikipedia-container {
-    float:right;
-    width:290px;
-    padding:10px;
-    margin-right: 10px;
-    background-color: rgba(255,255,255,0.7);
-}
-
-.nytimes-container {
-    padding: 10px;
-    margin-right:300px;
-    background-color: rgba(255,255,255,0.7);
-}
-
-.article-list {
-    margin: 0;
-    padding: 0;
-}
-
-.article {
-    list-style-type: none;
-    padding:10px;
-    border-top: 1px solid #CCC;
-}
-.article:first-child {
-    border-top:none;
+.no_marks {
+    list-style: none;
+    margin: 0px -40px;
 }
